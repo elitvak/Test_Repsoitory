@@ -54,3 +54,5 @@ use WWW::Mechanize;
             print "HTTP GET error code: ", $resp->code, "\n";
             print "HTTP GET error message: ", $resp->message, "\n";
         }
+
+		$test_variable = "This might work?";
